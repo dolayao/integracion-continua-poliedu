@@ -1,0 +1,74 @@
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+  }
+  
+  .item {
+    width: 20%;
+    margin-bottom: 20px;
+    text-align: center;
+   
+  }
+
+  .item-sell {
+    padding: 10px;
+    width: 28%;
+    text-align: center;
+
+   
+  }
+  
+
+.averagePrice{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.mostSelled{
+    width: 100%;
+    height: 100%;
+}
+
+.totalIncome{
+    width: 100%;
+    height: 100%;
+}
+
+.totalOrders{
+    width: 100%;
+    height: 100%;
+}
+
+.totalProducts{
+    width: 100%;
+    height: 100%;
+}
+
+.text{
+  font-size: 23px;
+}
+
+@media screen and (max-width:320px){
+
+  .item {
+    width: 25%;
+    margin-bottom: 20px;
+    text-align: center;
+   
+  }
+
+  .item-sell {
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+   
+  }
+
+  .text{
+    font-size: 10px;
+  }
+
+}
